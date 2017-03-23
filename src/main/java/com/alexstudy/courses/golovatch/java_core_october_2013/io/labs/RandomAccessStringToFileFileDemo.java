@@ -1,4 +1,4 @@
-package golovatch.courses.io.labs;
+package com.alexstudy.courses.golovatch.java_core_october_2013.io.labs;
 
 import java.io.IOException;
 
