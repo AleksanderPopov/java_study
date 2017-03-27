@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_7.constructor_challenge;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_7.constructor_challenge;
 
 /**
  * Created by Alex on 10/9/2016.

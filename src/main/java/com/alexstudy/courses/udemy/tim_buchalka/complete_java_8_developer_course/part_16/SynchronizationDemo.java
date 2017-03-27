@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_16;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_16;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.timbuchalka;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_9.linkedlist_challenge;
 
 /**
  * Created by dev on 18/09/15.

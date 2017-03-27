@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_19;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_19;
 
 /**
  * Created by apop on 12/6/2016.

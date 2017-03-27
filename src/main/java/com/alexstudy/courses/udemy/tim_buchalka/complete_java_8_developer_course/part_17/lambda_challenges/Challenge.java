@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_17.lambda_challenges;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_17.lambda_challenges;
 
 import java.util.Arrays;
 import java.util.Comparator;

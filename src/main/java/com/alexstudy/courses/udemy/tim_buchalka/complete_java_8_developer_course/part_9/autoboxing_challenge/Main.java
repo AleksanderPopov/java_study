@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_9.autoboxing_challenge;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_9.autoboxing_challenge;
 
 /**
  * Created by Alex on 10/12/2016.

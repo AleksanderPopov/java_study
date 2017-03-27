@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_10.inner_classes_challenge;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_10.inner_classes_challenge;
 
 /**
  * Created by dev on 18/09/15.

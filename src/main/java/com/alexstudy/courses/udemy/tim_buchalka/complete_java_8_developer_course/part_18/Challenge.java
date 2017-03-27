@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_18;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_18;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

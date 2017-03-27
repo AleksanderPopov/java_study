@@ -1,4 +1,4 @@
-package udemy.Tim_Buchalka.Complete_Java_8_Developer_Course.part_12.scope_challenge;
+package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_course.part_12.scope_challenge;
 
 import java.util.Scanner;
 
