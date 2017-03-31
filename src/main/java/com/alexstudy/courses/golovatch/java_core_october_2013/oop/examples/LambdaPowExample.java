@@ -12,6 +12,7 @@ public class LambdaPowExample {
     public static void main(String[] args) {
 
         List<String> elements = Arrays.asList("a", "b");
+
         pow(elements, 3).forEach(System.out::println);
     }
 
