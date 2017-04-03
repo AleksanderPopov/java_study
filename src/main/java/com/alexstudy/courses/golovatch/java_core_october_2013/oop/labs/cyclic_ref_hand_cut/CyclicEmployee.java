@@ -50,8 +50,13 @@ public class CyclicEmployee {
     public String toString() {
         List<CyclicEmployee> employees = new ArrayList<>();
         for (CyclicEmployee employee : subordinate) {
-            if (this.equals(employee)) employees.add(new CyclicEmployeeSimple(employee));
-            else employees.add(employee);
+            if (employee.subordinate.contains(this)) {
+                employee.subordinate.remove(this);
+                employee.subordinate.add(new CyclicEmployeeSimple(this));
+                employees.add(employee);
+            } else {
+                employees.add(employee);
+            }
         }
 
         return String.format("Employee[age='%d', name='%s', boss='%s', subordinate='%s']",
@@ -60,7 +65,7 @@ public class CyclicEmployee {
                 boss == null ? "null" : boss.toString(),
                 subordinate == null
                         ? "null"
-                        : subordinate.stream().map(elem -> elem.equals(this) ? new CyclicEmployeeSimple(elem).toString() : elem.toString()).collect(toList()));
+                        : employees.toString());
     }
 
     @Override
@@ -89,14 +94,17 @@ public class CyclicEmployee {
     }
 
     class CyclicEmployeeSimple extends CyclicEmployee {
+        private final CyclicEmployee employee;
+
         CyclicEmployeeSimple(CyclicEmployee employee) {
             super(employee);
+            this.employee = employee;
         }
 
         @Override
         public String toString() {
             return String.format("Employee[age='%d', name='%s', boss='%s']",
-                    super.age, super.name, super.boss == null ? "no" : super.boss.toString());
+                    employee.age, employee.name, employee.boss == null ? "no" : employee.boss.toString());
         }
     }
 }
