@@ -1,7 +1,6 @@
-package com.alexstudy.courses.javaonlinestudy.advanced.generics;
+package com.alexstudy.courses.onlinejavalessons.advanced.generics;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**

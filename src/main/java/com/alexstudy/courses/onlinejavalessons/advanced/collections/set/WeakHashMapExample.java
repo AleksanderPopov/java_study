@@ -1,4 +1,4 @@
-package com.alexstudy.courses.javaonlinestudy.advanced.collections;
+package com.alexstudy.courses.onlinejavalessons.advanced.collections.set;
 
 import javax.xml.crypto.Data;
 import java.util.Map;

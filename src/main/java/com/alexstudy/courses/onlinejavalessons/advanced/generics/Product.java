@@ -1,4 +1,4 @@
-package com.alexstudy.courses.javaonlinestudy.advanced.generics;
+package com.alexstudy.courses.onlinejavalessons.advanced.generics;
 
 /**
  * Created by Alex on 4/1/2017.

@@ -1,4 +1,4 @@
-package com.alexstudy.courses.javaonlinestudy.advanced.collections;
+package com.alexstudy.courses.onlinejavalessons.advanced.collections.set;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
