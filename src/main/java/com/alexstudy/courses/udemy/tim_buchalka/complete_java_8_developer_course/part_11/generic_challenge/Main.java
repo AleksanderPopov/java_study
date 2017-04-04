@@ -22,7 +22,6 @@ public class Main {
         LeagueTable<SoccerTeam> soccerTeamLeagueTable = new LeagueTable<>();
         soccerTeamLeagueTable.addParticipant(new SoccerTeam("Shahtar", 10));
         soccerTeamLeagueTable.addParticipant(new SoccerTeam("Dinamo", 5));
-        soccerTeamLeagueTable.addParticipant(new SoccerTeam("Dinamo", 5));
         soccerTeamLeagueTable.addParticipant(new SoccerTeam("Chernomorec", 12));
         soccerTeamLeagueTable.printTable();
 
@@ -31,8 +30,6 @@ public class Main {
         LeagueTable<BaseballTeam> baseballTeamLeagueTable = new LeagueTable<>();
         baseballTeamLeagueTable.addParticipant(new BaseballTeam("Shahtar", 10));
         baseballTeamLeagueTable.addParticipant(new BaseballTeam("Dinamo", 5));
-        baseballTeamLeagueTable.addParticipant(new BaseballTeam("Chernomorec", 12));
-        baseballTeamLeagueTable.addParticipant(new BaseballTeam("Chernomorec", 12));
         baseballTeamLeagueTable.addParticipant(new BaseballTeam("Chernomorec", 12));
         baseballTeamLeagueTable.printTable();
     }
