@@ -1,4 +1,4 @@
-package org.stepic.java.chapter4;
+package com.alexstudy.courses.stepic.java.chapter4;
 
 /**
  * Created by Alex on 7/9/2016.

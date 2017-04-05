@@ -7,11 +7,11 @@ package com.alexstudy.courses.onlinejavalessons.advanced.annotations_reflection;
 public class SimpleService {
 
     @Init
-    void lazyinit() throws Exception {
-        System.out.println("lazy init");
+    public void lazyinit() throws Exception {
+        System.out.println("lazy init method body");
     }
 
-    void doStuff() {
+    public void doStuff() {
         System.out.println("do stuff");
     }
 }
