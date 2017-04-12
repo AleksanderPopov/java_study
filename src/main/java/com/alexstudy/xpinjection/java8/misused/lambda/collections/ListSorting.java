@@ -19,7 +19,7 @@ public class ListSorting {
     @Annotations.Good
     class UsingExistingPredefinedComparator {
         public void sortUsersById(List<User> users) {
-            users.sort(comparing(User::getId, Integer::compareTo));
+            users.sort(comparing(User::getId, Long::compareTo));
         }
     }
 }
