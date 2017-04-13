@@ -12,13 +12,13 @@ package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_cours
  * We want to create a base hamburger, but also two other types of hamburgers that are popular ones in
  * Bills store.
  * The basic hamburger should have the following items.
- * bread roll type, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
+ * bread roll types, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
  * the customer can select to be added to the burger. Each one of these items gets charged an additional
  * price so you need some way to track how many items got added and to calculate the price (for the base
  * burger and all the additions).
  * This burger has a base price and the additions are all seperately priced.
  * Create a Hamburger class to deal with all the above.
- * The constructor should only include the roll type, meat and price.
+ * The constructor should only include the roll types, meat and price.
  * Also create two extra varieties of Hamburgers (classes) to cater for
  * a) Healthy burger (on a brown rye bread roll), plus two addition items can be added.
  * The healthy burger can have a total of 6 items (Additions) in total.

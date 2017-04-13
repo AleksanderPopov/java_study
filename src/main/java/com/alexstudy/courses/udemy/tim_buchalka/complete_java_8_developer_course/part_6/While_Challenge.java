@@ -30,7 +30,7 @@ public class While_Challenge {
     // and at the end, display the total number of even numbers found
 
 
-    // Create a method called isEvenNumber that takes a parameter of type int
+    // Create a method called isEvenNumber that takes a parameter of types int
     // Its purpose is to determine if the argument passed to the method is
     // an even number or not.
     // return true if an even number, otherwise return false;

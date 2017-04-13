@@ -12,7 +12,7 @@ package com.alexstudy.courses.udemy.tim_buchalka.complete_java_8_developer_cours
  * Your class should have a method to print out the teams in order,
  * with the team at the top of the league printed first.
  * <p>
- * Only teams of the same type should be added to any particular
+ * Only teams of the same types should be added to any particular
  * instance of the league class - the program should fail to compile
  * if an attempt is made to add an incompatible team.
  */
